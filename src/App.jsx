@@ -8,7 +8,7 @@ const App = () => (
     <div className='flex flex-col w-[90%] max-w-[1200px]'>
         <BrowserRouter>
             <Navbar />
-            <div className='flex flex-col items-center'>
+            <div className='flex flex-col items-center gap-[100px]'>
                 <Routes>
                     <Route index element={<Home />} />
                     <Route element={<Articles />} path='/articles' />

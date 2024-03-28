@@ -1,7 +1,7 @@
 
 const MainCard = () => {
     return (
-        <section className="flex flex-col md:flex-row justify-between border-[2px] rounded-md shadow-xl w-full">
+        <section className="flex flex-col md:flex-row justify-between border-[2px] rounded-md shadow-lg w-full">
             <div className="p-3 sm:p-6 lg:p-8 flex flex-col justify-between gap-8 lg:gap-14 md:min-w-[422px]">
                 <div className="flex flex-col gap-3">
                     <div className="text-[30px] font-bold">
