@@ -5,13 +5,15 @@ import Articles from './pages/Articles'
 
 const App = () => (
 
-    <div className='flex flex-col justify-center w-[90%] max-w-[1200px]'>
+    <div className='flex flex-col w-[90%] max-w-[1200px]'>
         <BrowserRouter>
             <Navbar />
-            <Routes>
-                <Route index element={<Home />} />
-                <Route element={<Articles />} path='/articles' />
-            </Routes>
+            <div className='flex flex-col items-center'>
+                <Routes>
+                    <Route index element={<Home />} />
+                    <Route element={<Articles />} path='/articles' />
+                </Routes>
+            </div>
         </BrowserRouter>
 
     </div>
