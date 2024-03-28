@@ -1,7 +1,7 @@
 
 const Hero = () => {
     return (
-        <main className="flex flex-col md:flex-row justify-center items-center gap-2 sm:gap-10 lg:gap-20 mb-[30px]">
+        <main className="flex flex-col md:flex-row justify-center items-center gap-2 sm:gap-10 lg:gap-20 mb-[30px] bg-white">
             <div>
                 <div className="font-bold text-[40px] sm:text-[55px] lg:text-[60px] text-nowrap">
                     <div>
