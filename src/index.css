@@ -48,3 +48,7 @@ body {
     object-fit: cover;
     height: auto;
 }
+
+.content p {
+    margin-bottom: 3rem;
+}
