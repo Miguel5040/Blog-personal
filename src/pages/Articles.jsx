@@ -2,6 +2,7 @@ import React from 'react'
 import MainPicture from "../components/MainPicture"
 import Title from "../components/Title"
 import Content from '../sub-components/Content'
+import ButtonTop from '../sub-components/ButtonTop'
 
 const Articles = () => {
     return (
@@ -11,6 +12,7 @@ const Articles = () => {
                 <Title />
                 <Content />
             </div>
+            <ButtonTop />
         </div>
     )
 }
