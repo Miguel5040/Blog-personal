@@ -29,3 +29,22 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
+
+.contenedor {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.imagen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    object-fit: cover;
+    height: auto;
+}

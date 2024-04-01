@@ -1,3 +1,4 @@
+import React from "react"
 import Hero from "../components/Hero"
 import MainCard from "../components/MainCard"
 import Sections from "../components/Sections"
