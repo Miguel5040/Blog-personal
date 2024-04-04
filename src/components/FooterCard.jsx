@@ -1,5 +1,5 @@
 import React from "react"
-import Button from "./Button"
+import SeeMore from "./SeeMore"
 
 const FooterCard = () => {
 
@@ -24,7 +24,7 @@ const FooterCard = () => {
                     <img className="object-cover w-full h-full" src="https://www.10wallpaper.com/wallpaper/1366x768/1801/Office_laptop_programming_coffee_4K_1366x768.jpg" alt="imagen de persona con laptop" />
                 </div>
             </article>
-            <Button />
+            <SeeMore />
         </section>
     )
 }

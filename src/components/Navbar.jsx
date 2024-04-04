@@ -3,9 +3,9 @@ import { Link } from "react-router-dom"
 
 const Navbar = () => (
     <nav className="flex justify-between py-6">
-        <span className="font-bold">
+        <Link className="font-bold" to={'/'}>
             HotCoffee
-        </span>
+        </Link>
         <div className="md:flex gap-[80px] hidden">
             <div className="flex gap-8">
                 <Link className="hover:text-[#662bc5] hover:scale-[1.04]" to={'/'}>Home</Link>

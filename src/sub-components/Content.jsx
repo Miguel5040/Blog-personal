@@ -3,7 +3,7 @@ import React from "react";
 const Content = () => {
 
     return (
-        <main className="content mt-10 text-[20px] leading-9 flex flex-col items-center">
+        <main className="content mt-10 text-[17px] md:text-[20px] leading-9 flex flex-col items-center">
             <h3 className="text-[25px] font-medium mb-6 space-y-0 w-full">Lorem ipsum amet consectetur?</h3>
 
             <p>

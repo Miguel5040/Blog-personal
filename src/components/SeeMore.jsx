@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 
-const Button = () => {
+const SeeMore = () => {
 
     return (
         <div className="flex justify-end py-6">
@@ -10,4 +10,4 @@ const Button = () => {
     )
 }
 
-export default Button
+export default SeeMore
