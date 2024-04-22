@@ -8,21 +8,21 @@ const Sections = () => {
             <Card
                 image={"./images/equipo-programacion.jpg"}
                 alt={"imagen de prueba"}
-                title={"Motso y gorda"}
+                title={"Lorem ipsum sit"}
                 description={"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, ut explicabo aliquid quam tempore porro recusandae odit nesciunt ipsum mollitia!"}
                 date={"June 17th 2024"}
             />
             <Card
                 image={"./images/computadora-programacion.jpg"}
                 alt={"imagen de prueba"}
-                title={"Motso y gorda"}
+                title={"Lorem ipsum amet"}
                 description={"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, ut explicabo aliquid quam tempore porro recusandae odit nesciunt ipsum mollitia!"}
                 date={"June 17th 2024"}
             />
             <Card
                 image={"./images/codigo-imagen.jpeg"}
                 alt={"imagen de prueba"}
-                title={"Motso y gorda"}
+                title={"Lorem ipsum dolor"}
                 description={"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, ut explicabo aliquid quam tempore porro recusandae odit nesciunt ipsum mollitia!"}
                 date={"June 17th 2024"}
             />
